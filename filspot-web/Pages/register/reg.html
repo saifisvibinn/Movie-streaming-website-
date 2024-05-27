@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="reg.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="shortcut icon" href="../../public/filspot.ico" type="image/x-icon">
+    </head>
+
+    <body>
+      <img src="../../public/filspot_logo.png" alt="logo" class="logo-img">
+        <div class="signup">
+            <form class="signform"  method="post" action="">
+
+        <br>
+        <input type="text" name="username" class="inpusr" placeholder="Username">
+        <br><br>
+        <input class="inpem" type="email" name="email" placeholder="Your Email" required>
+        <br><br>
+       
+        <input class="inppass"  type="password" name="password" placeholder="Enter Password" required>
+        <br><br>
+        <label for="terms-and-conditions">
+            <p class="text">
+         <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" />I accept the <a href="#" onclick="window.alert('والله هديكم اكتر من 10 درجات (انت حلفت ههه)')">terms and conditions</a></p>
+          </label>
+          <br><br>
+        <input class="inpbutton" type="submit" name="signup" value="Sign Up">
+       
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    background-image: url("../../public/reg_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+}
+
+.login_form {
+    background-color: #28282d;
+    box-shadow: 0 5px 25px 0 rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    width: 300px;
+    height: 300px;
+    margin:auto;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 550px; 
+}
+.inp_email {
+    background-color: #2b2b31;
+    border: none;
+    height: 50px;
+    position: relative;
+    font-size: 15px;
+    width: 250px;
+    color: #fff;
+    padding: 0 20px;
+    letter-spacing: 0.2px;
+}
+.inp_pass {
+    background-color: #2b2b31;
+    border: none;
+    height: 50px;
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    width: 250px;
+    color: #fff;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 0 20px;
+    letter-spacing: 0.2px;
+    font-family: 'Open Sans', sans-serif;
+}
+.inp_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 94%;
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #291748 0%, #9a26ad 100%);
+    box-shadow: 0 0 20px 0 #5c2ea0;
+    opacity: 0.85;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px
+}
+.para1 {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    font-family: 'Open Sans', sans-serif;
+}
+.sign_up {
+    position: relative;;
+    color: #b46aff;
+    opacity: 0.9;
+}
+.form1 {
+    padding: 50px 60px;
+    width: 300px;
+    height: 468px;
+    margin: auto;
+}
+.logo_img {
+    color: WHITE;
+    TEXT-DECORATION: none;
+    FONT-SIZE: xx-large;
+    margin-bottom: 24px
+}
+
+i.bx bxs-user {
+    position: relative;
+    top: -30px;
+    left: 125px;
+    color: white;
+}
+.logo{
+    display: flex;
+    margin: auto;
+    margin-left: 450px;
+    
+}
